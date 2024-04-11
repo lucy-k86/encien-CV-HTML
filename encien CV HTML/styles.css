@@ -1,0 +1,165 @@
+/*reset*/
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+  }
+    /****police family***/
+  
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(214, 202, 202);
+        font-size: large;
+      }
+
+      /*style colonne gauche*/
+ 
+.gauche{
+    background-color: rgb(66, 65, 65);
+    margin: 10px 0px 10px 0px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+}    
+
+/**style image et donnes personnelles**/
+
+.barrebleu{
+  margin: 100px 0px 0px 0px;
+  padding: 20px;
+  background-color: rgb(6, 6, 51);
+}
+
+img{
+  width: 200px;
+  position: absolute;
+  border-radius: 120px;
+  margin-left: 50px;
+}
+
+.margintop{
+  margin-top: 300px;
+}
+
+/**style lien email**/
+
+a:hover, .email{
+  color: rgb(231, 104, 104);
+}
+
+.pointclef{
+  text-align: center; 
+}
+
+.typeinfo{
+  border: 5px solid blanchedalmond;
+  margin: 30px 0px 30px 30px;
+  text-align: center;
+  padding-top: 10px;
+  width:60%;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+hr{
+  background-color: rgb(5, 221, 221);
+  padding: 10px;
+  border-bottom-right-radius: 50px;
+}
+
+.procentage{
+  width: 40%;
+}
+
+.colonne1, .colonne2{
+  padding: 5px;
+}
+
+.fr{
+  width: 80%;
+}
+
+.en{
+  width: 30%;
+}
+
+.kr{
+  width: 10%;
+}
+
+/*style colonne droit*/
+
+.droite{
+  background-color: rgb(231, 231, 150);
+  margin: 10px 0px 10px 0px;
+  padding-bottom: 20px;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  color: rgb(51, 50, 50);
+}
+
+/**style rubrique motivation**/
+
+h1, h2{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+  text-align: center;
+  font-size: large;
+}
+
+h5{
+  text-align: center;
+}
+
+/**style mon projet, formation et experience**/
+
+.sujet{
+  border: 5px solid rgb(66, 65, 65);
+  margin: 20px 0px 20px 30px;
+  text-align: center;
+  padding-top: 10px;
+  width:80%;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.liste{
+  list-style-type: circle;
+}
+
+span{
+  border: 2px solid rgb(66, 65, 65);
+  text-align: center;
+  padding: 5px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  float: left;
+}
+
+/**Style button**/
+
+.button{
+  border: 5px solid rgb(32, 31, 29);
+  margin: 30px 0px 30px 100px;
+  text-align: center;
+  padding: 10px;
+  width:60%;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(32, 31, 29);
+}
+a:hover{
+  color: #0a58ca;
+}
+
+/**site responsive**/
+
+
+
